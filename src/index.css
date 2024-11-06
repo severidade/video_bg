@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@700&family=Lato:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+:root {
+  --font-title-primary: 'Kalnia', serif;
+  --color-title-primary: #f7c130;
+  --color-text-primary: #ffffff;
+  --color-highlight: #ff6347;
+  --color-dark: #030c1a;
+  --color-light-gray : #ffffffb3;
+  --color-medium-gray: #4B4B4B;
+  --color-hard-gray: #353535;
+  
+  --default-radius: 0.5rem;
+  --default-gap: 2rem;
+
+  --sidebar-width-mobile: 80vw;
+  --sidebar-width-desktop: 20vw;
+  --video-width-mobile: 90vw;
+  --video-width-desktop: 55vw;
+
+  width: 100vw;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Titillium Web", sans-serif;
+  color: var(--primary_color);
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+p { font-size: 1.6rem;}
+
+h1 {
+  font-family: var(--font-title-primary);
+  font-size: 4em;
+  color: var(--color-dark);
+  /* text-align: center; */
+  line-height: 1;
+  margin-bottom: 20px;
+  /* padding: 20px 50px 0 50px; */
+  width: 100%;
+}
+
+body {
+  background-color: #ff6347;
+}
